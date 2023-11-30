@@ -4,7 +4,6 @@ import serial
 from time import sleep
 import csv
 
-#@hris
 
 def listen_to_serial(port='com4', baudrate=115200):
     # try:
