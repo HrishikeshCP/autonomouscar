@@ -4,6 +4,7 @@ import serial
 from time import sleep
 import csv
 
+
 def listen_to_serial(port='com4', baudrate=115200):
     # try:
         # Open the serial port
