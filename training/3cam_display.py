@@ -31,7 +31,7 @@ def display_three_cameras(camera_indexes):
 
 if __name__ == "__main__":
     # Define camera indexes
-    camera_indexes = [0, 2, 3]  # Update with your camera indexes
+    camera_indexes = [0, 2, 1]  # Update with your camera indexes
 
     # Display frames from three cameras simultaneously
     display_three_cameras(camera_indexes)

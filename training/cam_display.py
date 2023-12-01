@@ -41,7 +41,7 @@ def display_camera(camera_index=0):
 
 if __name__ == "__main__":
     # Specify the camera index (default is 0)
-    camera_index = 0
+    camera_index = 1
 
     # Display the camera output
     display_camera(camera_index)
