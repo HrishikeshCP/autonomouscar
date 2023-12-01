@@ -95,7 +95,9 @@ def capture_and_display(cam1, cam2, cam3):
             cv2.imwrite(f'right/frame_{frame_count}.png', frame3)
             
             # write_to_csv(listen_to_serial())
+            
             write_to_text_file("data.txt", listen_to_serial())
+            write_to_text_file("data.txt", '10')
             frame_count += 1
 
     # Release camera connections and close windows
